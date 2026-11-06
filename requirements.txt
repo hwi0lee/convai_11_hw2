@@ -1,0 +1,7 @@
+openai>=2.0
+streamlit>=1.50
+python-dotenv>=1.0
+pandas
+altair
+google-api-python-client>=2.0
+google-auth-oauthlib>=1.0

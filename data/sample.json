@@ -1,0 +1,23 @@
+{
+  "_comment": "Demo data used when Google Calendar is not connected. Events and deadlines are defined by weekday and mapped to the first such day on/after the start date (designed for a Monday start).",
+  "events": [
+    {"weekday": "월", "start": "10:00", "end": "12:00", "title": "머신러닝 수업"},
+    {"weekday": "월", "start": "15:00", "end": "16:00", "title": "지도교수 면담"},
+    {"weekday": "화", "start": "13:00", "end": "15:00", "title": "자연어처리 수업"},
+    {"weekday": "화", "start": "19:00", "end": "20:00", "title": "헬스"},
+    {"weekday": "수", "start": "10:00", "end": "12:00", "title": "머신러닝 수업"},
+    {"weekday": "수", "start": "14:00", "end": "17:00", "title": "조교 업무"},
+    {"weekday": "목", "start": "13:00", "end": "15:00", "title": "자연어처리 수업"},
+    {"weekday": "목", "start": "18:00", "end": "20:00", "title": "동아리"},
+    {"weekday": "금", "start": "10:00", "end": "12:00", "title": "연구실 미팅"},
+    {"weekday": "금", "start": "19:00", "end": "20:00", "title": "헬스"},
+    {"weekday": "토", "start": "11:00", "end": "13:00", "title": "점심 약속"},
+    {"weekday": "일", "start": "13:00", "end": "18:00", "title": "가족 행사"}
+  ],
+  "tasks": [
+    {"name": "NLP 과제 챗봇 구현", "hours": 8, "deadline_weekday": "수", "deadline_time": "23:59", "priority": 1},
+    {"name": "논문 리뷰 작성", "hours": 4, "deadline_weekday": "목", "deadline_time": "18:00", "priority": 2},
+    {"name": "ML 중간고사 공부", "hours": 10, "deadline_weekday": "토", "deadline_time": "09:00", "priority": 1},
+    {"name": "발표 자료 준비", "hours": 3, "deadline_weekday": "일", "deadline_time": "23:59", "priority": 3}
+  ]
+}
